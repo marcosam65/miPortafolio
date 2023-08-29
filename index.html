@@ -165,15 +165,15 @@
 
                     <div class="contact-form">
                         <h4>Enviar Mensaje</h4>
-                        <form class="form" method="post">
-                            <input type="text" placeholder="Name" class="input" id="nombre">
-                            <input type="email" placeholder="Email" class="input" id="email">
-                            <textarea name="message" placeholder="Escribe tu mensaje aqui..." id="mensaje"></textarea>
-                            <button id="enviarCorreo" type="submit" class="btn-submit">Enviar</button>
+                        <!--usando plugging formsubmit-->
+                        <form class="form"  action="https://formsubmit.co/4b3c01579038807ca097557fea549eda" method="POST">
+                            <input type="text" placeholder="Name" class="input" name="name">
+                            <input type="email" placeholder="Email" class="input" name="email">
+                            <textarea name="message" placeholder="Escribe tu mensaje aqui..."></textarea>
+                            <button type="submit" value="Enviar" class="btn-submit">Enviar</button>
+                            <!--con la linea de abajo volvenos a la pagina principal-->
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5501/">
                         </form>
-                        <script>
-                            
-                        </script>
                     </div>
                 </div>
                 
