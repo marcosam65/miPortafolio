@@ -411,4 +411,10 @@ text-decoration: none;
         width: 80vw;
     }
 
+    /*footer*/
+
+    .footer-content h2{
+        font-size: 2em;
+    }
+
 }
