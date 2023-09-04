@@ -78,6 +78,9 @@ html {
     display: none;
 }
 
+.fab{
+    color: #000;
+}
 .main{
     margin: 0 auto;
     width: 80vw;
