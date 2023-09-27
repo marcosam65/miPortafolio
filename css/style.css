@@ -11,15 +11,13 @@ body{
 }
 
 /*redes sociales flotaantes*/
-.content-sotial{
-    width: 100%;
-    padding: 20px 0;
-    background-color: #191c32;
+.navbar, .content-sotial ul{
+    padding: 50px 0;
 }
 
 .content-sotial ul{
     margin-left: 0;
-    width:50%;
+    width:30%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -31,7 +29,7 @@ body{
 .content-sotial li{
     position: relative;
     transform: translateX(-90px);
-    background: rgba(0, 0, 0, 0.36);
+    background: rgba(0, 0, 0, 0.063);
     list-style: none;
     padding: 14px 0;
     margin: 10px 0;
@@ -115,7 +113,7 @@ html {
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 3em 4em;
+    padding: 2em 1em 2em 5em;
 }
 
 .brand{
